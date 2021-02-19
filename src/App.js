@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 function App() {
   useEffect(()=>{
     const a = 3
-    const b = 3
+    const b = 4
 
     const result = a + b
     console.log(result);
