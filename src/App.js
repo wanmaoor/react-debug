@@ -1,13 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(()=>{
+    const a = 1
+    const b = 1
+
+    const result = a + b
+    console.log(result);
+  }, [])
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hey! U son of bitch, Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
