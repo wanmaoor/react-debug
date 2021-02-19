@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(()=>{
-    const a = 2
-    const b = 2
+    const a = 3
+    const b = 3
 
     const result = a + b
     console.log(result);
